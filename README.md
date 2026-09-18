@@ -7,3 +7,8 @@ Starter code for an artificial chemistry assignment
 
 
 ## Advanced
+
+
+
+
+## AI Log
