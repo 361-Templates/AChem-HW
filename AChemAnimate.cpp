@@ -81,8 +81,8 @@ public:
         for (int step = 0; step < sub_steps; ++step) {
             // Scaled thermal movement
             for (auto& p : particles) {
-                double dx = random.GetRandNormal(0.0, step_temp);
-                double dy = random.GetRandNormal(0.0, step_temp);
+                double dx = random.GetNormal(0.0, step_temp);
+                double dy = random.GetNormal(0.0, step_temp);
                 p.Move(dx, dy, canvas_width, canvas_height);
             }
 
